@@ -35,13 +35,20 @@ span {
   background: #000;
 }
 
-#background {
+.background-layer {
   position: absolute;
   inset: 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
+  opacity: 0;
+  transition: opacity 0.32s ease;
+  will-change: opacity;
+}
+
+#background-a {
+  opacity: 1;
 }
 
 .sprite {

@@ -1,12 +1,16 @@
 import { store, ActionTypes, evaluateCondition } from "./store.js";
 
 const sceneCache = new Map();
+const imageCache = new Map();
+const scenePreloadCache = new Map();
 let assetsManifest;
 let renderVersion = 0;
 let isAdvancing = false;
 let isTransitioning = false;
 let currentBgmId = null;
 let audioUnlocked = false;
+let activeBackgroundKey = "a";
+let currentBackgroundPath = null;
 
 const bgmAudio = new Audio();
 bgmAudio.preload = "auto";
@@ -38,7 +42,8 @@ async function fetchJson(url) {
 }
 
 const el = {
-  background: document.getElementById("background"),
+  backgroundA: document.getElementById("background-a"),
+  backgroundB: document.getElementById("background-b"),
   spriteLeft: document.getElementById("sprite-left"),
   spriteCenter: document.getElementById("sprite-center"),
   spriteRight: document.getElementById("sprite-right"),
@@ -53,20 +58,92 @@ const el = {
   contactLink: document.getElementById("contact-link"),
 };
 
-function renderBackground(bgId) {
+function getBackgroundElements() {
+  return activeBackgroundKey === "a"
+    ? {
+        active: el.backgroundA,
+        standby: el.backgroundB,
+        nextKey: "b",
+      }
+    : {
+        active: el.backgroundB,
+        standby: el.backgroundA,
+        nextKey: "a",
+      };
+}
+
+function preloadImage(src) {
+  if (!src) return Promise.resolve(null);
+  if (imageCache.has(src)) return imageCache.get(src);
+
+  const promise = new Promise((resolve, reject) => {
+    const img = new Image();
+    img.decoding = "async";
+    img.loading = "eager";
+
+    img.onload = async () => {
+      try {
+        if (typeof img.decode === "function") {
+          await img.decode();
+        }
+      } catch {
+      }
+      resolve(img);
+    };
+
+    img.onerror = () => {
+      imageCache.delete(src);
+      reject(new Error(`Failed to preload image: ${src}`));
+    };
+
+    img.src = src;
+  });
+
+  imageCache.set(src, promise);
+  return promise;
+}
+
+async function applyBackground(path) {
+  const { active, standby, nextKey } = getBackgroundElements();
+
+  if (!path) {
+    active.style.opacity = "0";
+    standby.style.opacity = "0";
+    standby.style.backgroundImage = "none";
+    currentBackgroundPath = null;
+    return;
+  }
+
+  if (currentBackgroundPath === path) {
+    return;
+  }
+
+  await preloadImage(path);
+
+  standby.style.backgroundImage = `url("${path}")`;
+  standby.style.opacity = "1";
+  active.style.opacity = "0";
+
+  activeBackgroundKey = nextKey;
+  currentBackgroundPath = path;
+}
+
+async function renderBackground(bgId) {
   const path = assetsManifest?.backgrounds?.[bgId];
 
   if (!path) {
     console.warn(`Background not found: ${bgId}`);
-    el.background.style.backgroundImage = "none";
+    await applyBackground(null);
     return;
   }
 
-  el.background.style.backgroundImage = `url("${path}")`;
+  await applyBackground(path);
 }
 
-function renderSprite(sprite) {
-  [el.spriteLeft, el.spriteCenter, el.spriteRight].forEach((node) => {
+async function renderSprite(sprite) {
+  const spriteNodes = [el.spriteLeft, el.spriteCenter, el.spriteRight];
+
+  spriteNodes.forEach((node) => {
     node.style.backgroundImage = "";
     node.classList.remove("active");
   });
@@ -78,6 +155,8 @@ function renderSprite(sprite) {
     console.warn("Sprite not found", sprite.character, sprite.emotion);
     return;
   }
+
+  await preloadImage(path);
 
   const targetEl =
     sprite.position === "left"
@@ -239,6 +318,85 @@ async function renderBgmForCurrentScene() {
   }
 }
 
+function getSceneBackgroundPath(scene) {
+  return assetsManifest?.backgrounds?.[scene.background] ?? null;
+}
+
+function getSpritePath(sprite) {
+  if (!sprite) return null;
+  return assetsManifest?.characters?.[sprite.character]?.[sprite.emotion] ?? null;
+}
+
+function collectSceneAssetPaths(scene) {
+  const paths = new Set();
+
+  const bgPath = getSceneBackgroundPath(scene);
+  if (bgPath) paths.add(bgPath);
+
+  for (const line of scene.lines ?? []) {
+    const spritePath = getSpritePath(line.sprite);
+    if (spritePath) paths.add(spritePath);
+  }
+
+  return [...paths];
+}
+
+function collectLikelyNextSceneIds(scene, state) {
+  const nextIds = new Set();
+
+  if (scene.type === "screen" && scene.next) {
+    nextIds.add(scene.next);
+    return [...nextIds];
+  }
+
+  const currentLine = scene.lines?.[state.currentLineIndex];
+  if (!currentLine) return [...nextIds];
+
+  if (currentLine.type === "dialogue") {
+    if (currentLine.next) {
+      nextIds.add(currentLine.next);
+    } else {
+      const nextLine = scene.lines?.[state.currentLineIndex + 1];
+      if (nextLine?.type === "choice") {
+        nextLine.choices.forEach((choice) => {
+          if (evaluateCondition(choice.condition, state)) {
+            nextIds.add(choice.next);
+          }
+        });
+      }
+    }
+  }
+
+  if (currentLine.type === "choice") {
+    currentLine.choices.forEach((choice) => {
+      if (evaluateCondition(choice.condition, state)) {
+        nextIds.add(choice.next);
+      }
+    });
+  }
+
+  return [...nextIds];
+}
+
+async function preloadSceneAssets(sceneId) {
+  if (!sceneId) return;
+  if (scenePreloadCache.has(sceneId)) return scenePreloadCache.get(sceneId);
+
+  const promise = (async () => {
+    const scene = await loadScene(sceneId);
+    const paths = collectSceneAssetPaths(scene);
+    await Promise.allSettled(paths.map((path) => preloadImage(path)));
+  })();
+
+  scenePreloadCache.set(sceneId, promise);
+  return promise;
+}
+
+async function warmupUpcomingScenes(scene, state) {
+  const nextSceneIds = collectLikelyNextSceneIds(scene, state);
+  await Promise.allSettled(nextSceneIds.map((sceneId) => preloadSceneAssets(sceneId)));
+}
+
 function showScreenMode() {
   el.textBox.style.display = "none";
   el.choicesContainer.style.display = "none";
@@ -266,13 +424,22 @@ async function render(state) {
     if (version !== renderVersion) return;
 
     if (scene.type === "screen") {
-      renderBackground(scene.background);
+      if (scene.resetsPlaythrough) {
+        const before = store.getState();
+        store.dispatch({ type: ActionTypes.RESETPLAYTHROUGH });
+        if (store.getState() !== before) return;
+      }
+
+      await renderBackground(scene.background);
+      if (version !== renderVersion) return;
       renderBgm(scene.bgm);
       showScreenMode();
+      void warmupUpcomingScenes(scene, state);
       return;
     }
 
-    renderBackground(scene.background);
+    await renderBackground(scene.background);
+    if (version !== renderVersion) return;
     renderBgm(scene.bgm);
 
     const line = scene.lines?.[state.currentLineIndex];
@@ -284,10 +451,12 @@ async function render(state) {
     showDialogueMode();
 
     if (line.type === "dialogue") {
-      renderSprite(line.sprite);
+      await renderSprite(line.sprite);
+      if (version !== renderVersion) return;
       renderSpeaker(line.speaker);
       renderText(line.text);
       renderChoices(null, state);
+      void warmupUpcomingScenes(scene, state);
       return;
     }
 
@@ -295,6 +464,7 @@ async function render(state) {
       renderSpeaker(null);
       renderText(null);
       renderChoices(line.choices, state);
+      void warmupUpcomingScenes(scene, state);
       return;
     }
 
@@ -306,8 +476,7 @@ async function render(state) {
 }
  
 async function transitionToScene(sceneId) {
-  if (isTransitioning) return;
-  isTransitioning = true;
+  await preloadSceneAssets(sceneId);
 
   try {
     const nextScene = await loadScene(sceneId);
@@ -419,6 +588,8 @@ function renderContactLink(sceneId) {
 async function init() {
   try {
     await loadAssetsManifest();
+    await preloadSceneAssets("title");
+    await preloadSceneAssets("scene001");
     await render(store.getState());
   } catch (error) {
     console.error("Initialization failed", error);
