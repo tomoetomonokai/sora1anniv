@@ -47,8 +47,8 @@ span {
 .sprite {
   position: absolute;
   bottom: 0;
-  width: min(80%, 800px);
-  height: min(80%, 800px);
+  width: min(90%, 800px);
+  height: min(90%, 800px);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
