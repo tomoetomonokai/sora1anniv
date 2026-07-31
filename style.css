@@ -27,8 +27,8 @@ span {
 
 #game-container {
   position: relative;
-  width: min(100vw, calc(100vh * 16 / 9));
-  height: min(100vh, calc(100vw * 9 / 16));
+  width: min(100vw, calc(100vh * 16 / 9), 1600px);
+  height: min(100vh, calc(100vw * 9 / 16), 900px);
   aspect-ratio: 16 / 9;
   overflow: hidden;
   font-family: "Noto Sans JP", sans-serif;
@@ -48,7 +48,7 @@ span {
   position: absolute;
   bottom: 0;
   width: min(80%, 800px);
-  height: min(90%, 800px);
+  height: min(80%, 800px);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
