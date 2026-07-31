@@ -1,0 +1,42 @@
+{
+  "characters": {
+    "miche": {
+      "neutral": "assets/sprites/miche_neutral.png",
+      "smile": "assets/sprites/miche_smile.png",
+      "surprise": "assets/sprites/miche_surprise.png",
+      "doya": "assets/sprites/miche_doya.png",
+      "tere": "assets/sprites/miche_tere.png"
+    },
+    "orthos": {
+      "neutral": "assets/sprites/orthos_neutral.png",
+      "smile": "assets/sprites/orthos_smile.png",
+      "doya": "assets/sprites/orthos_doya.png",
+      "gochi": "assets/sprites/orthos_gochi.png"
+    },
+    "raviol": {
+      "neutral": "assets/sprites/raviol_neutral.png",
+      "gochi": "assets/sprites/raviol_gochi.png",
+      "gocheese": "assets/sprites/raviol_gocheese.png"
+    },
+    "pistia": {
+      "neutral": "assets/sprites/pistia_neutral.png",
+      "smile": "assets/sprites/pistia_smile.png",
+      "surprise": "assets/sprites/pistia_surprise.png",
+      "gochi": "assets/sprites/pistia_gochi.png"
+    },
+    "you": {
+      "neutral": "assets/sprites/you_neutral.png",
+      "surprise": "assets/sprites/you_surprise.png",
+      "gochi": "assets/sprites/you_gochi.png"
+    }
+  },
+  "backgrounds": {
+    "bg_title": "assets/bg/title.png",
+    "bg_corridor": "assets/bg/corridor.png",
+    "bg_dining": "assets/bg/dining.png",
+    "bg_ending": "assets/bg/ending.png"
+  },
+  "bgm": {
+    "bgm_calm_afternoon": "assets/bgm/sample.mp3"
+  }
+}

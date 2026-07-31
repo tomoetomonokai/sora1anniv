@@ -1,0 +1,6 @@
+{
+  "id": "ending",
+  "type": "screen",
+  "background": "bg_ending",
+  "next": "title"
+}

@@ -1,0 +1,675 @@
+{
+  "id": "scene002_pistia",
+  "background": "bg_dining",
+  "bgm": {"id": "bgm_calm_afternoon", "volume": 0.6, "loop": true},
+  "lines": [
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "―― 大食堂 ――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ミシェリア様！\nさあどうぞお席に！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "ピスティア。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "今まで内緒にしていたのですが、今年の聖餐の儀のお料理は、\n私がご用意させていただいたんです！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "まあ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "もちろん、他の給仕の皆さんにもだいぶお手伝いしてもらったんですけど……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "びっくりされましたか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ミシェリア様？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "正直言うとね、うすうす勘づいてはいたのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "ええっ？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "だって、あなたは少し前からしきりに私の好きな食べものや、\n行ってみたい国を探り出そうとしていたではありませんか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "うっ……。とっくにバレていたんですね……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ふふ。でもね、ピスティア。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "だからといって、きょうこの日の私の楽しみが損なわれるわけではないのですよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あなたがいろいろと手を回してくれていたことがわかったから、\nむしろ喜びは増そうというものです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ミシェリア様……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "さあ、いただくとしましょう。席に案内してください。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "は、はい！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あの、ミシェリア様。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "なんでしょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "今日のお食事ですが、最後まで余力を残しておいてほしいのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "余力、ですか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あの……、つまり、お食事だけでお腹がいっぱいになってしまわないように。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "まあ。こんなに美味しそうなお料理が並んでいるのに。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "そ、そうなんですけど……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "でも、わかりました。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ピスティアがそう言うなら、少しずついただくようにしましょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "コースの料理もこれで最後ですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ピスティアは食べすぎないようにと言っていましたから、\nパンは控えてお茶だけにしておきましょうか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ミシェリア様！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ピスティア。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "今日のお食事は、楽しんでいただけましたか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ、とても。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あなたたちが心を込めて作ってくれた今日の食事を、\n私は忘れることはないでしょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "えへへ。ありがとうございます。\nでもですね、ミシェリア様。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "はい。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ふふふ……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "……？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "本番は、これからですよ！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "……本番！？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "",
+      "sprite": {"character": "pistia", "emotion": "gochi", "position": "center"},
+      "text": [
+        {"content": "", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "こ、これは……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ミシェリア様のために作った、聖餐の儀特製のパフェです！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "あ、ああ……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ふふふ～。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "何ということでしょう……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ご覧のとおり、ミシェリア様のお好きなものを詰め込みました！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ミシェリア様が行ってみたいと仰っていた、\n常夏の国から取り寄せた果物も入っているんですよ！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "み、ミシェリア様！？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "ああ、すみません。\n驚きのあまり少し取り乱してしまいました。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "し、しかし、いいのでしょうか……。\n私ひとりでこれを……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "はい！\nどーんといっちゃってください！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "どーんと、ですか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ、今日はせっかくの祝祭の日なのですから。\nそれに、ご心配には及びませんよ。実は……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "実は？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "少し前から、ミシェリア様のお食事から\nこっそり少しずつお砂糖や油を減らしていて……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "だから、今日はこれを召し上がってもプラマイゼロです！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "今日のために、そんなことまで……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "はい！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "わかりました。\nありがとうございます、ピスティア。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "そういうことなら、私も本気を出すことにします。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "出しちゃってください！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "では、いただきま……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "あっ！！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "ど、どうしました！？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "い、いえ、何でもありません。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "私はちょっと席を外しますが、\nごゆっくり召し上がってくださいね！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "そ、そうですか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "（あれは……、パフェだな。）", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "（しかしものすごいボリュームだ。\n　あれをおひとりで召し上がられるのだろうか……。）", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ラヴィオルさま！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "これは、ピスティア殿。\n……いかがされましたか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "いえ、何でもありませ……じゃなかった！\n大切な用事があるのです！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "さあさあ、こちらへ！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "えっ？　ちょ、ちょっと？\nピスティア殿！？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "（ミシェリア様……。）", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ピスティア",
+      "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "（女の子の秘密は私が守っておきますから、\n誰の目も気にせず楽しんでくださいね……！）", "style": null}
+      ],
+      "next": "ending"
+    }
+  ]
+}

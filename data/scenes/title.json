@@ -1,0 +1,7 @@
+{
+  "id": "title",
+  "type": "screen",
+  "background": "bg_title",
+  "next": "scene001",
+  "resetsPlaythrough": true
+}

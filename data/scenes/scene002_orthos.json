@@ -1,0 +1,765 @@
+{
+  "id": "scene002_orthos",
+  "background": "bg_dining",
+  "bgm": {"id": "bgm_calm_afternoon", "volume": 0.6, "loop": true},
+  "lines": [
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "やあ、ミシェリア。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "あなたは……、オルトス。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "久しぶりだね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "え、ええ……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ん？　どうしたの？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "驚きました。戻ってきていたのですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "うん。キミに料理を振る舞いたいと思って。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "そ、そのためにここへ？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "そうだよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "さ、早く食卓へ。料理が冷めちゃうよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "これは……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ふたを開けてみて。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "は、はい。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "",
+      "sprite": {"character": "orthos", "emotion": "gochi", "position": "center"},
+      "text": [
+        {"content": "", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "天丼って言うんだって。\n和の国の料理なんだ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "上に乗っているのが天ぷら。\nドンはこんな器に入ったお米のこと。あわせて天丼。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……この天ぷらという料理を、私は食べたことがあります。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "そ、そうなの？　空の国にもあったんだ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ。天ぷらという名前ではなく、クーライ揚げというのですが。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "えっ、あのクーライを食べちゃうの？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "いえ、もちろんクーライそのものではなくて、\n姿を象っただけなのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "な、なるほどね。確かに形はすごく似てるね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ではさっそくいただきましょう。さくさく。\n……むっ？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "どう？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "これは……、クーライ揚げとは中身が違いますね。\nなんだかプリッとした……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "エビっていうんだ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "エビ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "海に住む生き物なんだって。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "海の生き物、ですか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "うん。和の国は海に囲まれているからね。\nたくさん穫れるんだって。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "海……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "オルトスは、海を見たのですか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "うん。空の上から見るのと、\n実際に目の前にするのとではずいぶん違ったよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "もう水だらけっていうか？\nうまく表現できないけどさ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "そう言えば、小瓶を送ったんだけど、届いた？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ、受け取りました。あの瓶の中の水と砂は……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "そう。海の水と砂浜から取ったものなんだ。\n常夏の国のね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ユウと一緒に海の中を泳いだんだけど、\nそしたらワカメが絡まっちゃって大変だったよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "わかめ？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "海藻、海の植物だね。\n布みたいで、ヌメッとしていて気持ち悪かったのなんの。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ふふふ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "それで、そのあと行った雪の国ではね……、", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あっ、でも空の国と同じように海のない国もあってね。\n死者の国なんだけど。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "死者の国……。\n私たちと近しい文化を持つ国だと聞いたことがあります。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "そうだね。\n実はこの服は、死者の国に行って借りてきたものなんだ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "そうなのですか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "その衣装……、どこかで見たことがあるような、\n不思議な気持ちがしていたのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ベテルジュスさまっていう昔の聖人の服なんだって。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "汚したらチェヌさんに怒られるから、慎重に食べないとね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "うふふ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "オルトス。\nあなたは本当に世界中に赴き、さまざまなものを見てきたのですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "うん。\n兄さんも、俺の分まで見てこいっていうからね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あっ、ミシェリア。\nお箸はそう持つんじゃなくてね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "こうやって、中指に乗せるようにして、人差し指はこうで……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "tere", "position": "center"},
+      "text": [
+        {"content": "……！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ん？　どうしたの？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "い、いえ、なんでもありません。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "そう。\nお箸はね、少数民族の国とかでも使うから、使い方を覚えておいて損はないよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "そ、そうですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "和の国、もういちど行きたいな～。\n次は天狗に会えたりして。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "僕たちのように翼を持つ人がいるらしいよ。\nひょっとして何かつながりがあるのかもね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ねえ、ミシェリアも行ってみたいと思わない？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ミシェリア？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あっ……、そうだね。\nさすがにミシェリアを連れ出すのは……、マズいよね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ごめんごめん、またお土産でも……、", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "オルトス。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……なに？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "……私も、あなたとともに、旅をしたい。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ミシェリア。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "私を連れ出してください。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あなたの翼で。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……なんて。ふふっ、冗談で……", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "わかったよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "えっ？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "約束する。いっしょに、世界を巡る旅をしよう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "オルトス……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "でも、連れ出すってわけにはいかないかな。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "……？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "だって、ね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "オルトス",
+      "sprite": {"character": "orthos", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "キミの翼だって、空を飛べるはずだから。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "ええ、そうですね。", "style": null}
+      ],
+      "next": "ending"
+    }
+  ]
+}

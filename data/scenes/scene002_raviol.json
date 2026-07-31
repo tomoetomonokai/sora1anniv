@@ -1,0 +1,764 @@
+{
+  "id": "scene002_raviol",
+  "background": "bg_dining",
+  "bgm": {"id": "bgm_calm_afternoon", "volume": 0.6, "loop": true},
+  "lines": [
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "―― 大食堂 ――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "お待ちしておりました。ミシェリア様。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "まあ、\n今日はどうもあなたを見かけないと思ったら、ひょっとして……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ。\n今年の料理当番を仰せつかったもので。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "そうだったのですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "はい。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "それは、このあとの食事がますます楽しみになりました。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "過分なお言葉です。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……ミシェリア様。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "なんでしょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "以前、ランチをご一緒させていただいたのを憶えていらっしゃいますか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ、もちろん。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "私もあの日の食事が妙に頭から離れず……、\nまたあのように料理を振る舞える機会があればいいと思っていたのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "それは、私もですよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "光栄です。\nさあ、ご案内します。こちらへ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "お待たせいたしました。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null,
+      "sprite": {"character": "raviol", "emotion": "gochi", "position": "center"},
+      "text": [
+        {"content": "", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "この料理は確か……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ、ラタトゥイユでございます。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "まあ、嬉しいです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "またあの料理を口にしたいと思いつつ、\n今日までいただきそびれていたものですから。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ではどうぞ、冷たいうちに。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ、せっかくですから冷めないうちに。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "……あらっ？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "これは……冷たい。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ。今日のは冷製ラタトゥイユに仕立てております。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "なるほど。そういうことでしたか。むぐむぐ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "とても、美味しいです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "お褒めにあずかり恐縮です。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "驚きました。\n温度ひとつで、同じ料理でもこうまで印象が変わるのですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "野菜の甘さと酸味が調和して、清冽な味わいとでも言うのでしょうか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "ひんやりとした舌触りと食感が際立って、\nまったく違う一面を見せてくれるかのようです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "これから暑さを増す季節に、ピッタリかと思いまして。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ、そうですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……ラヴィオル。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "はい。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あなたは、召し上がらないのですか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ああ、そうですね。\nミシェリア様がそう仰るのなら、ご一緒させていただきましょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "～～♪", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "あっ！　ちょ、ちょっと待ってください。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "どうされましたか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "そ、それは……、\nあなたはいったい何をかけようとしているのですか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "何をって、パルミジャーノチーズですが。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "チーズ……、\nそれは、有りなのですか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "むろん、有りでしょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "有りですか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……お使いになりますか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "ええっ？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "どうぞ。ご遠慮なさらずに。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "し、しかし……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "チーズなどかけたら美味しいに決まっています……。\nいやでも、そうすると……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ。まろやかさが加わって味に深みが増しますよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "そ、そんなのわかっています……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ミシェリア様。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "……はい。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "一瞬、目を閉じていただけますか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "こ、こうですか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "えいっ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null,
+      "sprite": {"character": "raviol", "emotion": "gocheese", "position": "center"},
+      "text": [
+        {"content": "", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "！？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "おっと失礼、手が滑ってミシェリア様の皿にチーズが入ってしまいました。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "ラヴィオル……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "取り替えさせましょうか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "い、いえ。せっかくなのでこのままいただきます。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "そうですか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "……ああ。これは……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "悪くないでしょう？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ふふっ。寛大なるご慈悲に感謝いたします。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "これも神のお導き……そういうことにしておきましょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "いいではありませんか、こういうのも、たまには。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "……そうですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ラヴィオル。あなたは……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……なんでしょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ずるいです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ずるいですか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "どう、ずるいのですか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "私が知らない美味しさをこんなに知っているなんて。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ミシェリア様も、お知りになったらよろしいでしょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "はい、そうします。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええ、そうなさってください。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "言質は取りましたよ？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "えっ？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あなたが……、教えてくださるのですよね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ラヴィオル",
+      "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……ええ、喜んで。", "style": null}
+      ],
+      "next": "ending"
+    }
+  ]
+}

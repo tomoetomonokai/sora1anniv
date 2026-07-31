@@ -1,0 +1,668 @@
+{
+  "id": "scene002_you",
+  "background": "bg_dining",
+  "bgm": {"id": "bgm_calm_afternoon", "volume": 0.6, "loop": true},
+  "lines": [
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "―― 大食堂 ――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "待っていたのですよ！ミシェリアさん！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "お久しぶりです。ミシェリア……様。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "まあ、あなたたちは……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "みゅふふ、今日のシェフは私たちなのです！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "私が腕によりをかけて作った料理、ぜひご賞味あれなのです！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "メルクは横でレシピを読み上げてただけだろ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "みゅっ！レシピは料理の命なのですよ！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "そのレシピだって、教えてもらったやつじゃないか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "みゅーっ！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "うふふ、あなたたちは相変わらず仲が良いのですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あっ、すみません。ミシェリア様の前で……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "楽しくて結構なことですよ。でも、あえて言うなら……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "様付けは他人行儀ですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "えっ？　で、でも……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "もっと気軽に呼んでいただいても。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "じゃ、じゃあ、ミシェリア……さま。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "漢字がひらがなになっただけなのですよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ふふふ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "え、えっと……、ミシェリア、さん。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "もうひと声なのですよ！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "なんでメルクが仕切るんだよ！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "みゅみゅっ！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ふふっ、呼びやすいほうで構いませんよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "は、はい……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "それはそうと、ミシェリアさん。早くしないと料理が冷めてしまうのです！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "あら、そうですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ええと……、席に案内しますね。\n俺たちが案内するというのも変な感じだけど……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "私たちが聖餐のお食事に選んだ料理は……、これなのです！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, 
+      "sprite": {"character": "you", "emotion": "gochi", "position": "center"},
+      "text": [
+        {"content": "", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "まあ、これは……。黄色と赤の対比が美しいですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "オムライスという地上の料理なのです！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "オムライス、ですか。この赤いソースで描かれているのは……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "みゅふ。もちろん私からミシェリアさんへの気持ちなのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ふふ。ありがとうございます。\n食べる前から、温かい気持ちになりますね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "さあミシェリアさん、スプーンを入れてみてくださいなのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あっ、はい。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "横にすっと切れ目を入れるような感じで。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "まあ。卵が、ふわりと開いて……中から、とろりと流れてきました。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "みゅふふ。そう、その名もふわとろオムライスなのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ふわとろ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "卵への火の通りを見極める集中力。\n半熟の程よい瞬間を逃さず卵を固めるフライパンさばき。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……熟練の技がなせる料理なのですよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "ぜんぶやったのは俺だけどな。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "全部じゃないのです！\nケチャップでハートを書いたのは私なのですよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "それは料理には入らないだろ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "チッチッ、ユウさん、わかってないのですよ……。\n愛情は料理の最高のスパイスなのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "おいしくなあれ～、おいしくなあれ～♡", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "どこでこんなの覚えてきたんだ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "みゅっ、これはきっと、ミシェリアさんの声のほうが似合うと思うのですよ！", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "えっ？　私……ですか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "さあさあ、ミシェリアさんもご一緒に！\n萌え、萌え、きゅ……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "いい加減にしろ。ミシェリアさんが困ってるだろ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "みゅう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……美味しいです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "卵の甘みと優しい食感がトマトソースの鮮やかな酸味と調和していて。\nお米や具材もそれぞれが主張していて、食べ飽きない味ですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "良かったです。ミシェリアさんのお口に合うか、ちょっと心配だったから。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "そうなのですか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "オムライスは、地上ではどちらかというと庶民の料理ですから。\nこんな大事な場にお出しして良かったのかなって。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ふふ。それでしたら、むしろこのオムライスはこの場にうってつけですね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "聖餐の儀などという仰々しい名がついていますが、人々の幸せを願うための祝宴ですから。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ほら、子どもたちも口の周りを真っ赤にしてオムライスを食べています。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "あの楽しそうな笑顔こそが、私たちがいちばん大切にしたいものなのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "みゅふふ、ユウさん、やはりさすがなのですよ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ああ、そうだな。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "？？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "実は、このオムライスを出すといいって言ったのは……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "メルク",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "オルトスさんなのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "えっ？\nということは、ひょっとして……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "はい。いま空の国にいます。\nというか、俺たちをここに運んできてくれたのがオルトスなので。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "なるほど。そうでしたか。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "オルトスは……、いえ。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あなたたちは……、このあともオルトスと旅を続けるのですか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……はい。そうなると思います。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "そうですか。では、あなたたちのこれからの旅路に幸多からんことを。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ささやかながら、この空の上から祈りを捧げたいと思います。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ありがとうございます。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "あともうひとつだけ、言付かっていただけませんか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ユウ",
+      "sprite": {"character": "you", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……はい。なんでしょうか？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "お兄さんばっかりでなく……、\nたまには私にも、手紙をよこすように、と。", "style": null}
+      ],
+      "next": "ending"
+    }
+  ]
+}

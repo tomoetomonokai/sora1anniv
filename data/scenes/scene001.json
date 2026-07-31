@@ -1,0 +1,169 @@
+{
+  "id": "scene001",
+  "background": "bg_corridor",
+  "bgm": {"id": "sample", "volume": 0.6, "loop": true},
+  "lines": [
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "―― 聖宮前 回廊 ――", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "聖宮での祈祷もつつがなく終わりましたし、\n残すは聖餐の儀のみとなりましたね。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "smile", "position": "center"},
+      "text": [
+        {"content": "さて、今年はどんなごちそうが……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "……おっと、いけませんね。\n神に捧げる神聖な儀式だというのに、ついつい己の喜びに思いを馳せてしまいました。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "以前の聖餐の儀といえば、\n形式に則り、パンの欠片と水をほんの少し口にするだけのものでした。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "ですが、せっかく聖ミシェリアの日として祝うのなら、その締めくくりは\n民のための催しにしよう――そう考えてくださった方々がいたのです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "それから料理の腕に覚えのある者たちが進んで名乗りを上げ、\n今ではこうして、皆に温かな料理が振る舞われる機会となりました。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "もっとも、この私自身までがそのご相伴にあずかれるのは、\nまことにありがたいことです。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "surprise", "position": "center"},
+      "text": [
+        {"content": "長いあいだ、この祝祭の日が私――ミシェリアの名を冠していることに、\nどこか戸惑いを覚えていました。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "けれど、こうして人々が笑い合い、ごちそうを囲み、\nささやかな幸福を分け合える一日になるのなら……、", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "これほど嬉しいことはありません。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "doya", "position": "center"},
+      "text": [
+        {"content": "……。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "さあ、参りましょうか。\n皆さんをあまり待たせてはいけません。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "大食堂には、すでに大勢の人々が集まっているようですね。\n扉のこちら側まで、香ばしく、どこか懐かしい匂いが漂ってきます。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": "ミシェリア",
+      "sprite": {"character": "miche", "emotion": "neutral", "position": "center"},
+      "text": [
+        {"content": "……そういえば。今年の料理番が誰なのか、聞くのをすっかり忘れていましたね。\nいったい、どなたが腕を振るってくださったのでしょう。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "大食堂の扉をそっと押し開けるミシェリア。", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "dialogue", "speaker": null, "sprite": null,
+      "text": [
+        {"content": "そんな彼女を出迎えたのは……？", "style": null}
+      ],
+      "next": null
+    },
+    {
+      "type": "choice",
+      "choices": [
+        {
+          "label": "赤い髪の精悍な青年",
+          "next": "scene002_raviol",
+          "condition": null,
+          "probability": 1
+        },
+        {
+          "label": "花冠を被った給仕の少女",
+          "next": "scene002_pistia",
+          "condition": null,
+          "probability": 1
+        },
+        {
+          "label": "貫頭衣の少年と瓶詰め美少女",
+          "next": "scene002_you",
+          "condition": null,
+          "probability": 1
+        },
+        {
+          "label": "異国の聖装に身を包んだ白髮の少年",
+          "next": "scene002_orthos",
+          "condition": null,
+          "probability": 0.05
+        }
+      ]
+    }
+  ]
+}
