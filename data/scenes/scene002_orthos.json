@@ -1,7 +1,6 @@
 {
   "id": "scene002_orthos",
   "background": "bg_dining",
-  "bgm": {"id": "bgm_calm_afternoon", "volume": 0.6, "loop": true},
   "lines": [
     {
       "type": "dialogue", "speaker": "オルトス",

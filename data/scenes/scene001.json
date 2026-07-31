@@ -1,7 +1,6 @@
 {
   "id": "scene001",
   "background": "bg_corridor",
-  "bgm": {"id": "sample", "volume": 0.6, "loop": true},
   "lines": [
     {
       "type": "dialogue", "speaker": null, "sprite": null,
