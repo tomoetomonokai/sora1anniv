@@ -11,6 +11,7 @@ let currentBgmId = null;
 let audioUnlocked = false;
 let activeBackgroundKey = "a";
 let currentBackgroundPath = null;
+let hasBooted = false;
 
 const bgmAudio = new Audio();
 bgmAudio.preload = "auto";
@@ -57,6 +58,12 @@ const el = {
   loadButton: document.getElementById("load-button"),
   contactLink: document.getElementById("contact-link"),
 };
+
+function finishBoot() {
+  if (hasBooted) return;
+  hasBooted = true;
+  el.gameContainer.classList.remove("is-booting");
+}
 
 function getBackgroundElements() {
   return activeBackgroundKey === "a"
@@ -432,6 +439,7 @@ async function render(state) {
 
       await renderBackground(scene.background);
       if (version !== renderVersion) return;
+      finishBoot();
       renderBgm(scene.bgm);
       showScreenMode();
       void warmupUpcomingScenes(scene, state);
@@ -440,6 +448,7 @@ async function render(state) {
 
     await renderBackground(scene.background);
     if (version !== renderVersion) return;
+    finishBoot();
     renderBgm(scene.bgm);
 
     const line = scene.lines?.[state.currentLineIndex];

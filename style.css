@@ -647,3 +647,25 @@ span {
 #contact-link[hidden] {
   display: none;
 }
+
+#game-container.is-booting #text-box,
+#game-container.is-booting #choices-container,
+#game-container.is-booting #system-controls,
+#game-container.is-booting #game-status,
+#game-container.is-booting #contact-link,
+#game-container.is-booting .sprite {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+#text-box,
+#choices-container,
+#system-controls,
+#game-status,
+#game-container,
+.sprite {
+  transition:
+    opacity 0.2s ease,
+    visibility 0s linear 0s;
+}
