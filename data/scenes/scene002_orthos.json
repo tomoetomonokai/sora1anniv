@@ -114,7 +114,7 @@
       "next": null
     },
     {
-      "type": "dialogue", "speaker": "",
+      "type": "dialogue", "speaker": null,
       "sprite": {"character": "orthos", "emotion": "gochi", "position": "center"},
       "text": [
         {"content": "", "style": null}

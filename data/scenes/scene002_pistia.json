@@ -352,7 +352,7 @@
       "next": null
     },
     {
-      "type": "dialogue", "speaker": "",
+      "type": "dialogue", "speaker": null,
       "sprite": {"character": "pistia", "emotion": "gochi", "position": "center"},
       "text": [
         {"content": "", "style": null}
@@ -544,7 +544,7 @@
       "next": null
     },
     {
-      "type": "dialogue", "speaker": "ラヴィオル",
+      "type": "dialogue", "speaker": null,
       "sprite": {"character": "raviol", "emotion": "neutral", "position": "center"},
       "text": [
         {"content": "", "style": null}
@@ -666,7 +666,7 @@
       "type": "dialogue", "speaker": "ピスティア",
       "sprite": {"character": "pistia", "emotion": "smile", "position": "center"},
       "text": [
-        {"content": "（女の子の秘密は私が守っておきますから、\n誰の目も気にせず楽しんでくださいね……！）", "style": null}
+        {"content": "（女の子の秘密は私が守っておきますから、\n　誰の目も気にせず楽しんでくださいね……！）", "style": null}
       ],
       "next": "ending"
     }
