@@ -426,7 +426,9 @@ span {
   right: clamp(12px, 10%, 160px);
   bottom: max(12px, env(safe-area-inset-bottom));
   max-height: 60%;
-  overflow-y: auto;
+  padding-inline: 6px;
+  overflow-y: clip;
+  overflow-x: clip;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
 }
@@ -494,7 +496,7 @@ span {
   box-shadow:
     0 10px 28px rgba(0, 0, 0, 0.32),
     0 0 0 1px rgba(255, 213, 138, 0.13) inset;
-  transform: translateX(6px);
+  transform: translateX(3px);
 }
 
 .choice-button:hover::after,
@@ -578,6 +580,8 @@ span {
     right: 6%;
     bottom: max(8px, env(safe-area-inset-bottom));
     max-height: 72%;
+    overflow-y: clip;
+    overflow-x: clip;
     gap: 6px;
   }
 
