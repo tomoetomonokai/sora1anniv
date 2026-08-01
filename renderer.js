@@ -273,6 +273,14 @@ function renderChoices(choices, state) {
     }
 
     button.addEventListener("click", async () => {
+      if (isTransitioning) return;
+
+      el.choicesContainer
+        .querySelectorAll("button")
+        .forEach((choiceButton) => {
+          choiceButton.disabled = true;
+        });
+
       unlockAudio();
       await transitionToScene(choice.next);
     });
@@ -421,24 +429,28 @@ function showStatus(message = "") {
   el.status.classList.toggle("active", Boolean(message));
 }
 
-async function render(state) {
-  const version = ++renderVersion;
+async function render(state, version) {
+  const isStale = () => version !== renderVersion;
 
   try {
     showStatus("");
+
     const scene = await loadScene(state.currentSceneId);
+    if (isStale()) return;
+
     renderContactLink(scene.id);
-    if (version !== renderVersion) return;
 
     if (scene.type === "screen") {
       if (scene.resetsPlaythrough) {
         const before = store.getState();
-        store.dispatch({ type: ActionTypes.RESETPLAYTHROUGH });
+        store.dispatch({ type: ActionTypes.RESET_PLAYTHROUGH });
+
         if (store.getState() !== before) return;
       }
 
       await renderBackground(scene.background);
-      if (version !== renderVersion) return;
+      if (isStale()) return;
+
       finishBoot();
       renderBgm(scene.bgm);
       showScreenMode();
@@ -447,13 +459,15 @@ async function render(state) {
     }
 
     await renderBackground(scene.background);
-    if (version !== renderVersion) return;
+    if (isStale()) return;
+
     finishBoot();
     renderBgm(scene.bgm);
 
     const line = scene.lines?.[state.currentLineIndex];
+
     if (!line) {
-      showStatus("ここから先のシーンが見つからないよ。");
+      showStatus("シナリオ行が見つかりません。");
       return;
     }
 
@@ -461,7 +475,8 @@ async function render(state) {
 
     if (line.type === "dialogue") {
       await renderSprite(line.sprite);
-      if (version !== renderVersion) return;
+      if (isStale()) return;
+
       renderSpeaker(line.speaker);
       renderText(line.text);
       renderChoices(null, state);
@@ -477,35 +492,57 @@ async function render(state) {
       return;
     }
 
-    showStatus(`未対応のline typeです: ${line.type}`);
+    showStatus(`未対応の行タイプです: ${line.type}`);
   } catch (error) {
+    if (isStale()) return;
+
     console.error("Render failed", error);
-    showStatus(`ゲームデータを読み込めませんでした: ${error.message}`);
+    showStatus(error.message);
   }
 }
- 
+
+function requestRender(state) {
+  const version = ++renderVersion;
+  void render(state, version);
+}
+
 async function transitionToScene(sceneId) {
-  await preloadSceneAssets(sceneId);
+  if (isTransitioning) return;
+
+  isTransitioning = true;
 
   try {
+    await preloadSceneAssets(sceneId);
+
     const nextScene = await loadScene(sceneId);
     const firstLine = nextScene.lines?.[0];
-    const choiceRolls =
-      firstLine?.type === "choice"
-        ? prepareChoiceRolls(firstLine.choices, sceneId, 0, store.getState())
-        : null;
+
+    const choiceRolls = firstLine?.type === "choice"
+      ? prepareChoiceRolls(
+          firstLine.choices,
+          sceneId,
+          0,
+          store.getState(),
+        )
+      : null;
 
     store.dispatch({
       type: ActionTypes.GOTOSCENE,
-      payload: { sceneId, choiceRolls },
+      payload: {
+        sceneId,
+        choiceRolls,
+      },
     });
+  } catch (error) {
+    console.error("Scene transition failed", error);
+    showStatus("シーンの読み込みに失敗しました。");
   } finally {
     isTransitioning = false;
   }
 }
 
 async function advanceDialogue() {
-  if (isAdvancing) return;
+  if (isAdvancing || isTransitioning) return;
 
   isAdvancing = true;
   const state = store.getState();
@@ -551,6 +588,7 @@ el.textBox.addEventListener("click", () => {
 
 el.gameContainer.addEventListener("click", async (event) => {
   if (event.target.closest("button, a")) return;
+  if (isTransitioning) return;
 
   unlockAudio();
   const state = store.getState();
@@ -572,11 +610,14 @@ el.gameContainer.addEventListener("click", async (event) => {
 document.addEventListener("keydown", (event) => {
   if (!["Enter", " ", "ArrowRight"].includes(event.key)) return;
   if (event.target instanceof HTMLButtonElement) return;
+  if (isTransitioning) return;
 
   event.preventDefault();
   unlockAudio();
   advanceDialogue();
 });
+
+store.subscribe(requestRender);
 
 el.saveButton.addEventListener("click", () => {
   showStatus(store.save() ? "保存しました。" : "保存に失敗しました。");
@@ -584,10 +625,6 @@ el.saveButton.addEventListener("click", () => {
 
 el.loadButton.addEventListener("click", () => {
   showStatus(store.load() ? "読み込みました。" : "セーブデータがありません。");
-});
-
-store.subscribe((state) => {
-  render(state);
 });
 
 function renderContactLink(sceneId) {
@@ -599,7 +636,7 @@ async function init() {
     await loadAssetsManifest();
     await preloadSceneAssets("title");
     await preloadSceneAssets("scene001");
-    await render(store.getState());
+    requestRender(store.getState());
   } catch (error) {
     console.error("Initialization failed", error);
     showStatus(`初期化に失敗しますた: ${error.message}`);
