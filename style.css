@@ -568,7 +568,7 @@ span {
     left: 4%;
     right: 4%;
     bottom: max(8px, env(safe-area-inset-bottom));
-    min-height: 34%;
+    min-height: 24%;
     max-height: 48%;
     padding: 10px 16px;
   }
@@ -735,7 +735,7 @@ span {
     left: 12px;
     right: 12px;
     bottom: max(12px, env(safe-area-inset-bottom));
-    min-height: 28%;
+    min-height: 20%;
     max-height: 45%;
   }
 
